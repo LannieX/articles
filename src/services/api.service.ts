@@ -8,7 +8,7 @@ import { authOptions } from "@/src/app/api/auth/[...nextauth]/route";
 const MODE = process.env.NEXT_PUBLIC_MODE || "dev";
 
 const BASE_URL =
-  MODE === "prod" ? "https://www.test-servies.com" : "http://localhost:4444";
+  MODE === "prod" ? "https://articles-services-yn8u.onrender.com" : "http://localhost:4444";
 
 type HttpMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
 
